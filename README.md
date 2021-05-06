@@ -30,3 +30,11 @@ There's a pretty fleshed out spec in the `./spec` directory. Checkout the [desig
 * Webpack 5
 * FlexBox
 * SASS
+
+### Getting Started
+Please run following tasks in the sequence to get the project runnning
+
+npm i ( in root folder)
+npm run api-server
+npm run start-dev ( this will start the devServer at 3000 port)
+Open https://localhost:3000 in the browser to view the changes
