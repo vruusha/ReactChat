@@ -6,7 +6,7 @@
 
 ## Howdy! 👋  
 
-This is the frontend interview project! I have built a basic chat app which can be used bya user to join a chat room and send and view messages by other users
+This is the frontend project! I have built a basic chat app which can be used bya user to join a chat room and send and view messages by other users
 
 ## Getting started
 There's a few things you need to get started on to get this to work.
