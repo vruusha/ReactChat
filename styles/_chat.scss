@@ -1,0 +1,77 @@
+.chat-window {
+  display: flex;
+  height: 100vh;
+
+  .left-panel {
+    background-color: red;
+    width: 230px;
+    flex: 0 0 230px;
+
+    .user-details {
+      overflow-wrap: break-word;
+      padding: 20px;
+      color: white;
+
+      .status {
+        font-size: 11px;
+      }
+    }
+
+    .chat-rooms {
+      overflow-wrap: break-word;
+      .room {
+        padding: 20px;
+        color: white;
+        &:hover {
+          background-color: darkred;
+        }
+      }
+      .active {
+        background-color: darkred;
+      }
+    }
+  }
+
+  .right-panel{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    .header {
+      text-align: center;
+      border: 1px solid lightgray;
+      padding: 20px;
+    }
+    .message-container {
+      flex: 1;
+      padding: 20px;
+      background-color: #FFFFFF;
+      max-height: 100vh;
+      overflow-y: auto;
+
+      .username {
+        margin-bottom: 5px;
+        color: brown;
+      }
+
+      .message {
+        max-width: 120px;
+        border-radius: 30px;
+        background-color: lightcoral;
+        color: black;
+        padding: 15px;
+        overflow-wrap: break-word;
+        margin-bottom: 10px;
+      }
+    }
+
+    .footer {
+      border: 1px solid lightgrey;
+      padding: 20px;
+      background-color: white;
+
+      input{
+        width: 80%;
+      }
+    }
+  }
+}
