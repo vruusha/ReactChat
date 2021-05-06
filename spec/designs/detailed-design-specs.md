@@ -7,7 +7,7 @@ The first screen you should see is the "login" screen. A user can type a usernam
 ![Set Username](./set-username.png)
 
 ## Chat
-When you've submitted a username, we'll load up the chat interface.
+When user submits a username, loads up the chat interface.
 
 On the left, we have:
 * user info
@@ -30,8 +30,6 @@ On the right, we have the selected chat room. There, we show:
 
 ## Specifics
 
-* The UI should match the design mocks provided as closely as possible.
-* The left panel should be a fixed width, and the right panel should stretch to accommodate
-* Should scroll the chat window to the bottom when new messages are added
-* Communicating with 2 users in 2 different browser tabs should show the new chat messages in both tabs. Do not modify or reimplement server.js
-* [BONUS] Attention to detail is valued and will be evaluated accordingly.
+* The left panel is with fixed width, and the right panel stretches to accommodate
+* Chat windowscrolls to the bottom when new messages are added
+* Communicating with 2 users in 2 different browser tabs show the new chat messages in both tabs.
