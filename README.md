@@ -23,7 +23,7 @@ By default, you can run `npm start` to run your app, serving the files from `/pu
 We have provided a simple api server for you. You can run `npm run api-server` to start it. Read the [spec](./spec/api-endpoints.md) for more details on the api.
 
 ### 4. Read the spec
-There's a pretty fleshed out spec in the `./spec` directory. Checkout the [design specs here](./spec/designs/detailed-design-specs.md) to understand what you're building!
+There's a pretty fleshed out spec in the `./spec` directory. Checkout the [design specs here](./spec/designs/detailed-design-specs.md) to understand what I am building!
 
 ## Frameworkd used to build the app
 * React JS
