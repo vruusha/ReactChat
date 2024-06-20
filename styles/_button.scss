@@ -1,0 +1,24 @@
+.btn{
+  background-color: red;
+  color: white;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.btn[disabled] {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: blue;
+  border: transparent;
+}
+
+.btn.btn-link[disabled] {
+  background-color: transparent;
+  color: lightgray;
+  border: transparent;
+}
+
