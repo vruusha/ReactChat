@@ -1,4 +1,4 @@
-# DoorDash Frontend Interview Project
+# Frontend Chat App Project
 * TLDR: *Build a chat app with real APIs*
 * Time: *3hr - 6hrs*
 * Frame work user : React JS
